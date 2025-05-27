@@ -38,9 +38,9 @@ Tidak butuh setup server atau database, aplikasi ini berjalan sepenuhnya di sisi
 
 ## 📸 Demo
 
-![Tampilan](assets/gambar-1.png)
-![Tampilan](assets/gambar-2.png)
-![Tampilan](assets/gambar-3.png)
+![Tampilan](./assets/gambar-1.png)
+![Tampilan](./assets/gambar-2.png)
+![Tampilan](./assets/gambar-3.png)
 
 ## 📃 Owner
 
