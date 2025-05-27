@@ -19,28 +19,26 @@ GreenMart adalah aplikasi web yang memungkinkan pengguna untuk menambahkan produ
 ## 🚀 Cara Menjalankan
 
 1. Clone repo ini atau unduh sebagai ZIP.
-2. Buka `index.html` langsung di browser.
-
-Tidak butuh setup server atau database, aplikasi ini berjalan sepenuhnya di sisi client.
+2. composer install
+3. npm install
+4. cp .env.example .env
+5. DB_DATABASE= | DB_USERNAME=root | DB_PASSWORD=
+6. php artisan key:generate
+7. php artisan migrate
+8. php artisan db:seed
+9. php artisan serve
+10. starter : http://127.0.0.1:8000/produk/buat-dinamis
 
 ## 🧪 Validasi Gambar
 
 -   Format gambar diperbolehkan: `.jpg`, `.jpeg`, `.png`
 -   Ukuran file maksimum dapat ditentukan di dalam logika JavaScript saat ini 2MB (Max)
 
-## 🧑‍💻 Teknologi
-
--   Laravel
--   Blade
--   HTML5
--   CSS3 (dengan styling responsif)
--   JavaScript (Vanilla)
-
 ## 📸 Demo
 
-![Tampilan](./assets/gambar-1.png)
-![Tampilan](./assets/gambar-2.png)
-![Tampilan](./assets/gambar-3.png)
+![Tampilan1](./assets/gambar-1.png)
+![Tampilan2](./assets/gambar-2.png)
+![Tampilan3](./assets/gambar-3.png)
 
 ## 📃 Owner
 
